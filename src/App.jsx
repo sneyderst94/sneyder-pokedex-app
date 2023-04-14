@@ -5,7 +5,6 @@ import Home from "./components/Home";
 import Item from "./components/Item";
 import ProtectedRoutes from "./components/ProtectedRoutes";
 import pokedex from "./assets/img/pokedex.png";
-import gif from "./assets/img/gif.gif";
 import Confi from "./components/Confi";
 
 function App() {

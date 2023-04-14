@@ -285,6 +285,9 @@ option {
   padding: 0.2rem 0.5rem;
   height: 2rem;
 }
+.bytype select:hover {
+  cursor: pointer;
+}
 .acces__container {
   width: 100%;
   max-width: 460px;
@@ -577,8 +580,10 @@ option {
 .moves p,
 .abilities p {
   background-color: rgba(255, 255, 255, 0.521);
-  padding: 0.1rem 0.3rem;
+  padding: 10px;
   border-radius: 1rem;
+  color: #000;
+  font-size: 16px;
 }
 .confi {
   height: 59vh;
