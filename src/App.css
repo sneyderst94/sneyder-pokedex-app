@@ -185,6 +185,10 @@ header {
 input:focus {
   outline: none;
 }
+
+.search__container button:hover {
+  cursor: pointer;
+}
 .confi button {
   width: 150px;
   height: 2rem;
