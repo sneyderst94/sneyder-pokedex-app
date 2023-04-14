@@ -209,10 +209,9 @@ input:focus {
   width: 90%;
   max-width: 400px;
   max-height: 400px;
-  background: rgba(128, 128, 128, 0.9);
+  background: rgb(255, 255, 255);
   border: none;
-  color: rgb(185, 235, 7);
-  top: 2rem;
+  top: 2.7rem;
   border-radius: 15px;
   text-align: center;
   padding: 1rem;
@@ -222,12 +221,12 @@ input:focus {
   justify-content: center;
   overflow-y: hidden;
   z-index: 101;
-  color: #568aa8;
+  color: #fff;
 }
 .suggestions li {
   list-style: none;
   margin-bottom: 0.5rem;
-  background-color: rgb(75, 74, 74);
+  background-color: #000;
   border-radius: 5px;
   padding: 0.2rem 0.5rem;
   height: 2rem;
@@ -358,6 +357,9 @@ option {
   width: 100%;
   margin-top: 1rem;
 }
+.pokemon__details h4 {
+  margin: -20px 0px 10px 0px;
+}
 .image {
   margin: 0 auto;
   width: 160px;
@@ -439,6 +441,7 @@ option {
   display: flex;
   gap: 2rem;
   align-items: center;
+  margin-top: 20px;
 }
 .name__type h2 {
   font-size: 3rem;
@@ -477,6 +480,10 @@ option {
   border-radius: 0 10px 10px 0;
   perspective: 900px;
   perspective-origin: center;
+}
+
+.item_characteristics hr {
+  margin: 5px 0px;
 }
 .avatar {
   filter: grayscale();
